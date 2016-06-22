@@ -6,3 +6,19 @@ div {
 }
 
 /* REMOVE EVERYTHING ABOVE THIS AFTER POSITIONING */
+
+/*Nav bar */
+
+.top-navigation {
+	background-color:fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin:.8rem;
+}
