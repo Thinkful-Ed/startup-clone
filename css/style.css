@@ -9,6 +9,13 @@ div {
 
 /*Nav bar */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .top-navigation {
 	background-color:fff;
 }
@@ -19,6 +26,36 @@ div {
 	margin: 0 auto;
 }
 
+.links {
+	float:right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	margin-top:1.4rem;
+}
+
+.links > li {
+	display:inline-block;	
+	margin-left:1.4rem;
+}
+
 .logo {
 	margin:.8rem;
+}
+
+.content {
+	padding: 0px 15px;
+	box-sizing:border-box;
+}
+
+.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.links > li:hover {
+	color:black;
+	cursor:pointer;
 }
