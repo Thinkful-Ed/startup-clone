@@ -45,12 +45,12 @@ html {
 	margin:.8rem;
 }
 
-.content {
+.top-navigation .content {
 	padding: 0px 15px;
 	box-sizing:border-box;
 }
 
-.active {
+.links .active {
 	color: #4c5058;
 	font-weight: 500;
 }
@@ -59,3 +59,13 @@ html {
 	color:black;
 	cursor:pointer;
 }
+
+.main-image {
+	width:100vw;
+	height:100vw;
+	position:relative;
+	background-image:url("/home/us-gov/Desktop/Projects/clone-site/images/background-image");
+	background-repeat:no-repeat;
+	
+}
+
