@@ -132,6 +132,7 @@ button:hover {
 	 justify-content:center;
 	 align-items:center;
 	 align-content:center;
+	 
 
 	 
 }
@@ -142,3 +143,40 @@ button:hover {
 }
 
 
+
+
+
+.icons:hover {
+	cursor:pointer;
+}
+
+.fa-circle {
+	color:white;
+	border:.04rem solid #d6d6c2;
+ 	border-radius:2rem;
+ 	color:white;
+}
+
+
+.fa-twitter, .fa-facebook, .fa-instagram {
+	
+	color: blue;
+
+}
+
+h5 {
+
+	
+	font-size:1.3rem;
+	font-weight:400;
+	
+
+}
+
+.social {
+	margin-top:10rem;
+}
+
+.social .content {
+	text-align:center;
+}
