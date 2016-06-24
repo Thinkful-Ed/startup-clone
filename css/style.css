@@ -61,8 +61,8 @@ html {
 }
 
 .main-image {
-	width:100vw;
-	height:100vw;
+	height:auto;
+	width:auto;
 	position:relative;
 	background-image:url("/home/us-gov/Desktop/Projects/clone-site/images/background-image");
 	background-repeat:no-repeat;
@@ -70,6 +70,7 @@ html {
 	margin:0 auto;
 	padding:0;
 	color:white;
+	display:fill;
 	
 }
 
