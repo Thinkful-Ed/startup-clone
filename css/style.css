@@ -16,23 +16,30 @@ html {
   box-sizing: inherit;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
 .top-navigation {
 	background-color:fff;
+
 }
 
 .top-navigation > .content {
-	width: 970px;
+	
 	height: 70px;
-	margin: 0 auto;
+	
 }
 
 .links {
 	float:right;
-	font-family: 'Roboto', sans-serif;
+	
 	font-size: 16px;
 	color: #838994;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
+	
+	
 	margin-top:1.4rem;
 }
 
@@ -45,9 +52,12 @@ html {
 	margin:.8rem;
 }
 
-.top-navigation .content {
+.content {
 	padding: 0px 15px;
 	box-sizing:border-box;
+	width: 970px;
+	margin:0 auto;
+
 }
 
 .links .active {
@@ -60,17 +70,43 @@ html {
 	cursor:pointer;
 }
 
-.main-image {
-	height:auto;
-	width:auto;
-	position:relative;
+.introduction {
+	height:585px;
+	background-position: 0 bottom;
 	background-image:url("/home/us-gov/Desktop/Projects/clone-site/images/background-image");
-	background-repeat:no-repeat;
+	background-size:cover;
 	text-align: center;
-	margin:0 auto;
-	padding:0;
-	color:white;
-	display:fill;
-	
+	background-repeat:no-repeat;
+	overflow:auto;
 }
 
+.introduction > .content {
+	color:white;
+	margin-top:13rem;
+	font-size:1.3rem;
+	
+	
+}	
+
+.introduction h1, .introduction h3 {
+	font-weight:300;
+	text-align:center;
+}
+
+button {
+	text-shadow:none;
+	background-color:#f15a29;
+	border-color:#f15a29;
+	border-style:none;
+	border-radius:4px;
+	width:9.688rem
+	margin:0 auto;
+	padding:1rem 1.5rem;
+	color:white;
+	font-size:1.125rem;
+}
+
+button:hover {
+	cursor:pointer;
+	background-color:#ff3300;
+}
