@@ -22,18 +22,13 @@ body {
 }
 
 .top-navigation > .content {
-	
 	height: 70px;
-	
 }
 
 .links {
 	float:right;
-	
 	font-size: 16px;
 	color: #838994;
-	
-	
 	margin-top:1.4rem;
 }
 
@@ -123,23 +118,13 @@ button:hover {
 	 
 	 justify-content:center;
 	 align-items:center;
-	 align-content:center;
-	 
-
-	 
+	 align-content:center;	 
 }
 
 .cases .devices h3 {
 	font-weight:400;
 	font-size:1.5rem;
 }
-
-
-.icons {
-	margin-left:auto;
-	margin-right:auto;
-}
-
 
 .icons:hover {
 	cursor:pointer;
@@ -154,9 +139,7 @@ button:hover {
 
 
 .fa-instagram {
-	
 	color: #3f729b;
-
 }
 
 .fa-facebook {
@@ -169,8 +152,6 @@ button:hover {
 
 
 h5 {
-
-	
 	font-size:1.3rem;
 	font-weight:400;
 }
@@ -185,14 +166,15 @@ h5 {
 
 
 .copywright{
-
 	font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
-
 }
 
 .copywright-contain {
 	margin-top:3rem;
 }
 
+.social li {
+	margin-right:2rem;
+}
