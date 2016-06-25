@@ -62,7 +62,7 @@ body {
 .introduction {
 	height:585px;
 	background-position: 0 bottom;
-	background-image:url("/Users/Cody/Desktop/Projects/startup-landing-page-clone/images/background-image");
+	background-image:url("../images/background-image");
 	background-size:cover;
 	text-align: center;
 	background-repeat:no-repeat;
